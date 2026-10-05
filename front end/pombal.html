@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pombal Futebol Clube - Site Oficial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="escudo.png" alt="Escudo Pombal F.C." class="escudo">
+        <h1>Pombal Futebol Clube</h1>
+        <p>O orgulho de Santa Eugênia - Nova Iguaçu</p>
+    </header>
+
+        <nav class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#elenco">Elenco</a>
+        <a href="#jogos">Jogos</a>
+        <a href="#contato">Peneira / Sócio</a>
+    </nav>
+
+    <main class="conteudo">
+
+                <section id="sobre">
+            <h2>Sobre o Clube</h2>
+            <p>O <strong>Pombal Futebol Clube</strong> foi fundado por um grupo de amigos e representa com orgulho o bairro de Santa Eugênia, em Nova Iguaçu. Nossas partidas acontecem tradicionalmente aos domingos no campo do quartel do Corpo de Bombeiros.</p>
+            <p>Com muita garra e união, o time vem fazendo bonito nos campeonatos amadores da Baixada Fluminense!</p>
+            <img src="elenco2.png" alt="Equipe do Pombal F.C." class="foto-elenco">
+        </section>
+
+                <section id="elenco">
+            <h2>Destaques do Elenco</h2>
+            <p>Conheça os pilares da nossa equipe:</p>
+            <ul>
+                <li><strong>Goleiro:</strong> Paredão da Baixada</li>
+                <li><strong>Zagueiros:</strong> Raça e Segurança</li>
+                <li><strong>Meio-Campo:</strong> Criação e Visão de Jogo</li>
+                <li><strong>Atacantes:</strong> Artilheiros Invicto</li>
+            </ul>
+        </section>
+
+                <section id="jogos">
+            <h2>Tabela de Últimos Jogos e Próximos Confrontos</h2>
+            <table class="tabela-jogos">
+                <tr>
+                    <th>Data</th>
+                    <th>Adversário</th>
+                    <th>Local</th>
+                    <th>Resultado / Horário</th>
+                </tr>
+                <tr>
+                    <td>Último Domingo</td>
+                    <td>Moquetá F.C.</td>
+                    <td>Campo dos Bombeiros</td>
+                    <td>Vitória 1 x 0</td>
+                </tr>
+                <tr>
+                    <td>Próximo Domingo</td>
+                    <td>Conceito F.C.</td>
+                    <td>São João de Meriti</td>
+                    <td>11:00 hrs</td>
+                </tr>
+            </table>
+        </section>
+
+                <section id="inscricao">
+            <h2>Faça Parte do Pombal F.C.</h2>
+            <p>Preencha o formulário abaixo para participar das nossas peneiras ou tornar-se um torcedor sócio-apoiador:</p>
+            
+            <form id="form-contato" action="#" method="get">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+                <label for="posicao">Posição que joga ou Cidade/Bairro:</label><br>
+                <input type="text" id="posicao" name="posicao" placeholder="Ex: Meio-campo / Santa Eugênia" required><br><br>
+
+                <label for="interesse">Tipo de Interesse:</label><br>
+                <select id="interesse" name="interesse">
+                    <option value="peneira">Quero fazer um teste (Atleta)</option>
+                    <option value="socio">Quero ser Sócio-Torcedor</option>
+                    <option value="amistoso">Marcar Amistoso</option>
+                </select><br><br>
+
+                <label for="mensagem">Sua Mensagem / Histórico no Futebol:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="40" placeholder="Conte um pouco sobre você..."></textarea><br><br>
+
+                <input type="submit" value="Enviar Inscrição" class="btn-enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pombal Futebol Clube - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

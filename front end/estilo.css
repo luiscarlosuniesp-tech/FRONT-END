@@ -1,0 +1,107 @@
+body {
+    background-color: #f0f4f8;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #fbc02d;
+}
+
+.escudo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.menu {
+    background-color: #1565c0;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #fbc02d;
+}
+
+.conteudo {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.foto-elenco {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid #0d47a1;
+    margin: 15px 0;
+    display: block;
+}
+
+.tabela-jogos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabela-jogos th, .tabela-jogos td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-jogos th {
+    background-color: #0d47a1;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#form-contato {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border: 2px solid #1565c0;
+    margin-top: 20px;
+}
+
+.btn-enviar {
+    background-color: #fbc02d;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #f57f17;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    margin-top: 30px;
+}
